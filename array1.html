@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DataStructure</title>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Data Structure,Structure in c,Array,array-2d">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="miniproject.css">
+    </head>
+    <body>
+        <div class="topnav">
+            <a href="homepage.html">HOME</a>
+            <a href="array1.html">1D-ARRAY</a>
+            <a href="array2.html">2D-ARRAY</a>
+            <a href="Structure.html">STRUCTURE</a>
+        </div>
+        <h1 style="text-align:center">One Dimensional Array in C</h1>
+        <img src="ds.png" class="imgcenter" height="400">
+        <h3>One Dimensional Array in C with Examples</h3>
+        <p>One dimensional array is an array that has only one subscript specification that is needed to specify a particular element of an array. A one-dimensional array is a structured collection of components (often called array elements) that can be accessed individually by specifying the position of a component with a single index value.
+         Syntax: data-type arr_name[array_size];</p>
+         <h3>Rules for Declaring One Dimensional Array</h3>
+         <ul>
+            <li>An array variable must be declared before being used in a program.</li>
+            <li>The declaration must have a data type(int, float, char, double, etc.), variable name, and subscript.</li>
+            <li>subscript represents the size of the array. If the size is declared as 10, programmers can store 10 elements.</li>
+            <li>An array index always starts from 0. For example, if an array variable is declared as s[10], then it ranges from 0 to 9.</li>
+            <li>Each array element stored in a separate memory location.</li>
+         </ul>
+         <div class="crow">
+             <div class="ccol">
+         <h2>Initialization of One-Dimensional Array in C</h2>
+         <h3>An array can be initialized at either following states:</h3>
+         <ol>
+             <li style="font-size:xx-large;">At compiling time (static initialization)</li>
+             <br><li style="font-size:xx-large">Dynamic Initialization</li>
+         </ol>
+             </div>
+        <img src="Array2.png" alt="array image" class="ccol">
+         </div>
+         <h3>Compiling time initialization:</h3>
+         <p>The compile-time initialization means the array of the elements are initialized at the time the program is written or array declaration.
+         <br><b>Syntax:</b> data_type array_name [array_size]=(list of elements of an array);
+         <br><b>Examples:</b> int n[5]={0, 1, 2, 3, 4};</p>
+         <h2 style="text-align: center;">Program:</h2>
+         <div class="bborder">
+         <p>#include<stdio.h>
+            <br>int main()
+            <br>{
+            <br>int n[5]={0, 1, 2, 3, 4};
+            <br>printf("%d\t", n[0]);
+            <br>printf("%d\t", n[1]);
+            <br>printf("%d\t", n[2]);
+            <br>printf("%d\t", n[3]);
+            <br>printf("%d\t", n[4]);
+            <br>}
+            <br>
+            <br><b>Output:</b>0 1 2 3 4</p>
+            </div>
+            <h3>Run time initialization:</h3>
+         <p>Run time initialization means the array can be initialized at runtime. That means array elements are initialized after the compilation of the program.
+         <br><b>Syntax:</b> data_type array_name [array_size];</p>
+         <h2 style="text-align: center;">program:</h2>
+         <div class="bborder">
+         <p>#include<stdio.h>
+            <br>int main()
+            <br>{
+            <br>int n[5];
+            <br>for(int i=0;i<5;i++);
+            <br>{
+            <br>scanf("%d",&a[i]);
+            <br>}
+            <br>print("Display");
+            <br>{
+            <br>for(int i=0;i<5;i++);
+            <br>printf("%d",a[i]);
+            <br>}
+            <br>}
+            <br>Input:0 1 2 3 4
+            <br>
+            <br><b>Output:</b>0 1 2 3 4</p>
+            </div>
+    </body>
+</html>

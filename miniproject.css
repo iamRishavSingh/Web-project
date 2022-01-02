@@ -1,0 +1,78 @@
+body{
+    background: rgb(34,193,195);
+    background: linear-gradient(131deg, rgba(34,193,195,1) 0%, rgba(131,200,177,0.23042720506171221) 22%, rgba(179,203,198,1) 33%, rgba(167,204,191,0.03154765324098385) 38%, rgba(15,212,107,1) 100%);
+}
+.row{
+    display: flex;
+}
+.col{
+    padding: 97px;
+    flex: 25%;
+}
+.topnav{
+    overflow: hidden;
+    background-color: rgb(117, 114, 114);
+}
+.topnav a{
+    color: rgb(4, 8, 8);
+    font-size: 17px;
+    padding:30px 40px;
+    float:left;
+    text-align: center;
+}
+.topnav a.active{
+    color: white;
+}
+h3{
+    color: rgb(167, 13, 33);
+} 
+h4{
+    color: rgb(167, 13, 33); 
+}
+.imgcenter{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+}
+.bborder{
+    margin-left:50px;
+    margin-right: 50px;
+    padding:5px;
+    background-color: rgb(32, 27, 27);
+    color:white;
+    font-size: x-large;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: blue;
+    border-width: 5px;
+    margin-top: 4px;
+    margin-right: 5px;
+}
+.cborder{
+        margin:25px;
+        padding:5px;
+        background-color: rgb(189, 135, 135);
+        color:rgb(70, 4, 4);
+        font-size:medium;
+        border-style: solid;
+        border-radius: 16px;
+        border-color: rgb(161, 136, 22);
+        border-width: 5px;
+}
+.crow{
+    display: flex;
+}
+.ccol{
+    flex:50%;
+}
+#crow1{
+    font-size: 50px;
+}
+#crow2{
+    background-color: rgb(54, 184, 145);
+    color: rgb(58, 20, 129);
+    padding: 3px;
+    border-style: solid;
+    border-width:5px;
+}
